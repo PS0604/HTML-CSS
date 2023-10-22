@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+body {
+    margin: auto;
+    background-color: gray;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #800080, rgba(0, 0, 0, 0.808));
+    padding: 15px;
+    text-decoration: none;
+}
+
+header h1 {
+    text-align: center;
+    color: goldenrod;
+    font-weight: bolder;
+    text-shadow: 6px 6px 6px black;
+    font-size: 40px;
+    font-family: 'Luckiest Guy', cursive, Arial, Helvetica, sans-serif;
+}
+
+header h3 { /*Frase*/
+    text-align: center;
+    color: rgba(255, 255, 255, 0.918);
+    margin: auto;
+    font-family: 'Luckiest Guy', cursive, Arial, Helvetica, sans-serif;
+
+}
+
+main {
+    width: auto;
+    height: 1700px;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+}
+
+main h1 { /*Apresentaçao*/
+    margin: 0px;
+    text-decoration: underline;
+    font-family: 'Dosis', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #560080;
+    text-shadow: 1px 1px 1px #AD00AD;
+    padding: 5px 0px;
+    background-image: linear-gradient(to right, #80008060, white);
+    border-radius: 8px;
+    text-indent: 5px;
+    width: auto;
+}
+
+main p {
+    margin: auto;
+    padding: 10px 5px;
+    font-family: 'Neuton', serif, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+
+nav > a {
+    color: goldenrod;
+    font-family: 'Neuton', cursive, Arial, Helvetica, sans-serif;
+    padding-right: 5px;
+    width: auto;
+}
+
+nav > a:hover {
+    color: #800080;
+    text-decoration: none;
+}
+
+nav > a:active {
+    color: none;
+}
+
+footer {
+    background-color: #80008085;
+    font-size: 15px;
+    font-family: 'Neuton', serif, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
